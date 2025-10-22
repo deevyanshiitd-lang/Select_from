@@ -9,7 +9,7 @@ if "text" not in st.session_state:
     st.session_state.image = "pic1.jpg"
 
 st.write(st.session_state.text)
-st.image(st.session_state.image, use_container_width="always")
+st.image(st.session_state.image, width=350)
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 
