@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Photo Collab")
-options = ["🌍 Trip", "💖 Most Beautiful Person", "👸 White Princess", "🌸 Flowers"]
+options = ["🌍 Trip", "💖Second Most Beautiful Person", "👸 White buddhi", "🌸 Flowers"]
 sel=st.select_slider("Select your emoji",options=options)
 if(sel=="🌍 Trip"):
     st.image("Screenshot 2025-10-22 at 2.36.40 PM.png")
